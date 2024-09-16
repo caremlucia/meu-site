@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <title>Contato</title>
+</head>
+<body>
+    <div class="area-cabecalho">
+       
+        <div id="area-logo">
+            <img width="250px" src="img/logo.jpeg">
+        </div>
+
+        <div id="area-menu">
+            <a href="inicio.html">Inicio</a>
+            <a href="sobre-nos.html">Sobre Nós</a>
+            <a href="agenda.html">Agenda</a>
+            <a href="fotos.html">Fotos</a>
+            <a href="contato.html">Contato</a>
+        </div>
+    </div>
+
+    <div class="area-principal">
+
+        
+        <div id="alert">Fique atento as informações!</div>
+        <script>
+    
+    
+        function mostrarAlerta() {
+            var alerta = document.getElementById("alert");
+            alerta.style.display = "block"; // Mostra o alerta
+    
+            setTimeout(function() {
+                alerta.style.display = "none"; // Esconde o alerta
+            }, 2000);
+        }
+    
+        // Chama a função para exibir o alerta
+        mostrarAlerta();
+    
+    
+    </script> 
+
+        <div id="contato">
+
+            <div class="rede-social">
+                <h2>Rede social</h2>
+              <a>  <img width="50px" src="img/whats.png"> </a>
+              <a>  <img width="50px" src="img/faceb.png"> </a>
+              <a>  <img width="50px" src="img/twi.png">   </a>
+              <a>  <img width="50px" src="img/insta.png"> </a>
+            </div>
+
+           <div class="endereco">
+            <h3>ENDEREÇO</h3>
+            <P>Rua: Maria de lourdes</P>
+            <p>Bairro: Igarápe</p>
+            <p>Número: 6275</p>
+            <p>CEP: 468.242-46</p>
+        </div>
+            <br>
+            <div class="mapa">               
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.4193745596785!2d-63.85951602420404!3d-8.746552489263207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92325b54c8ae4065%3A0x4d628cc6a643288a!2sRua%20Fabia%2C%206061%20-%20Igarap%C3%A9%2C%20Porto%20Velho%20-%20RO%2C%2076824-250!5e0!3m2!1spt-BR!2sbr!4v1726275697518!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+  
+           </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="rodape">
+        <i> <h4>Direitos autorais CL. <br>
+        Para mais informações da empresa. </i><br>
+        <a href=""><img width="42px" src="img/what.png"></a> </h4>
+    </div>
+    </footer>
+</body>
+</html>
